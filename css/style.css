@@ -11,8 +11,8 @@
 }
 
 .u-containerDefault{
-    width: 800px;
     margin: 0 auto;
+    width: 800px;
 }
 
 
@@ -20,11 +20,12 @@
 
 .MainMenu{
     background: #1E1E1E;
-    text-align: center;
+    display: inline-block;
     height: 3.75em;
-    position: fixed;
     left: 0;
+    position: fixed;
     right: 0;
+    text-align: center;
     top: 0;
 }
 
@@ -38,10 +39,26 @@
 }
 
 .MainMenu-link{
+    background: green;
     color: #00DBFF;
     text-decoration: none;
     line-height: 3.75em;
     margin-right: 1.5em;
+}
+
+.MainMenu-img{
+
+    background: green;
+    height: 22px;
+    width: auto;
+}
+
+
+.Xaduin-link{
+    color: #00DBFF;
+    text-decoration: none;
+    line-height: 3.75em;
+    margin-right: 0em;
 }
 
 /* Header */
